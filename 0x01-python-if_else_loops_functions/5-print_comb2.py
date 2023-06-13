@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print(', '.join(str(i) for i in range(0,100)))
+for i in range(99):
+    print("{:0>2}".format(i), end=", ")
+print(99)

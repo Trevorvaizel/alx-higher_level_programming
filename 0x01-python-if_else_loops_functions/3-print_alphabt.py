@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-print(''.join(chr(i) for i in range(97, 123) if chr(i) not in 'eq'))
-
+for i in range(97, 123):
+    if chr(i) not in 'eq':
+        print('{}'.format(chr(i)), end="")#!/usr/bin/python3
+for i in range(97, 123):
+    if chr(i) not in 'eq':
+        print('{}'.format(chr(i)), end="")

@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-def islower(c):
-    if ord(c) not in range(97, 123):
-        return False
-    else:
-        return True
-
 def uppercase(str):
-    strlen = len(str) + 1
-    for i in range(0, strlen):
-        if islower(i):
-            i = chr((ord(i) - 32))
+    strA = list()
+    for i in str:
+        if ord(i) >= 97 and ord(i) <= 122:
+            strA.append(chr(ord(i) - 32))
         else:
-            pass 
+            strA.append(i)
+    print('{}'.format("".join(strA)), end="")
+    print()
