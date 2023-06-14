@@ -3,10 +3,11 @@
 #Trevor <trevor.vaizel@gmail.com>
 
 from add_0 import add
-def my_function():
+def main():
 
     a = 1
     b = 2
     print("{} + {} = {}".format(a,b,add(a,b)))
 
-my_function()
+if "__name__" == "__main__":
+    main()
