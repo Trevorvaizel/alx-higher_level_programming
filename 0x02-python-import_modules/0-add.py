@@ -2,7 +2,6 @@
 #0_add.py
 #Trevor <trevor.vaizel@gmail.com>
 
-from add_0 import add
 def main():
 
     a = 1
@@ -10,4 +9,5 @@ def main():
     print("{} + {} = {}".format(a,b,add(a,b)))
 
 if "__name__" == "__main__":
+    from add_0 import add
     main()
