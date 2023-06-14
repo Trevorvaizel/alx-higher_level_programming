@@ -2,10 +2,11 @@
 #0_add.py
 #Trevor <trevor.vaizel@gmail.com>
 
-if "__name__" == "__main__":
-    """ Prints sum of a and b."""
-    from add_0.py import add
+from add_0 import add
+def my_function():
 
     a = 1
     b = 2
     print("{} + {} = {}".format(a,b,add(a,b)))
+
+my_function()
