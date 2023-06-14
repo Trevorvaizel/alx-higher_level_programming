@@ -10,4 +10,5 @@ def main():
     print("{} / {} = {}".format(a, b, div(a,b)))
 
 if "__name__" == "__main__":
+    from calculator_1 import add, sub, mul, div
     main()
