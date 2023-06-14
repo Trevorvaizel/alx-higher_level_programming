@@ -14,5 +14,4 @@ def arg_count(*args):
         print("{}: {}".format(counter, args))
         counter += 1
 
-if __name__ == "__main__":
-    arg_count()
+arg_count()
